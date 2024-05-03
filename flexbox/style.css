@@ -6,6 +6,9 @@
     border: 2px solid black;
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap;
+    align-content: center; */
 }
 
 h1{
@@ -14,7 +17,7 @@ h1{
 
 #container div{
     height: 100px;
-    width: 300px;
+    width: 100px;
     color: white;
     text-align: center;
     font-size: 1.5;

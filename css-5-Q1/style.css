@@ -1,0 +1,23 @@
+.boundary{
+    border: 2px solid green;
+    border-radius: 10px;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+}
+
+#alphabets{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 50px;
+    background-color: gray;
+    text-align: center;
+}
+
