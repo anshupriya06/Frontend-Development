@@ -1,0 +1,30 @@
+.box{
+    height: 100px;
+    width: 300px;
+    background-color: pink;
+    /* animation-name: animation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+
+    animation: animation 3s ease-in 0s infinite alternate ;
+
+}
+
+@keyframes animation {
+    form {
+        font-size: 20px;
+        width: 10px;
+        background-color:rgb(255, 47, 47) ;
+
+    }
+    to{
+        font-size: 55px;
+        width: 300px;
+        background-color: rgb(128, 214, 240);
+        border-radius: 50px;
+    }
+}
+
